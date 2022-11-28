@@ -1,0 +1,26 @@
+pin=int(input('enter pin number:'))
+confirmpin=int(input('enter confirm pin:')
+if pin==confirmpin:
+    print('continue the transaction')
+else:
+    print('incorrect pin number')
+    print('please try again')
+    
+    
+x=100
+y=int(input('enter number'))
+if y<x:
+    print('y is less than x')
+else:
+    print('y is greater than x')
+    
+    
+    
+bal=10000
+amount=int(input('enter number'))
+if bal>amount:
+       print('amount credited')
+else:
+       r=bal+amount
+       print('credited amount',amount)
+       print('remaining bal',r)
